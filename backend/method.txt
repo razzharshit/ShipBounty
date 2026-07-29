@@ -1,0 +1,5 @@
+cd /mnt/c/Users/rajha/OneDrive/Desktop/clg/1/backend
+source .venv/bin/activate
+docker compose up -d
+alembic upgrade head
+uvicorn app.main:app --reload
